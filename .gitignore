@@ -1,0 +1,13 @@
+# ignore local properties
+lib/credentials.py
+
+
+#################
+## Visual Studio
+#################
+*.vscode
+
+# Ignore Mac system files
+.DS_store
+*.tmp
+*.log
