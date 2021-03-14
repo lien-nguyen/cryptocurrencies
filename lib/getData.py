@@ -2,10 +2,11 @@ from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json, codecs
 
-import os 
+import os
 
 
-def get_data(url):
+def get_data(url, api_key):
+
   parameters = {
     'start':'1',
     'limit':'5000',
@@ -13,7 +14,7 @@ def get_data(url):
   }
   headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '87c8f939-6ef3-44f0-863c-c07a7d3df545',
+    'X-CMC_PRO_API_KEY': api_key,
   }
 
   session = Session()
