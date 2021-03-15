@@ -9,6 +9,7 @@ lib/config.py
 *.vscode
 
 # Ignore Mac system files
-.DS_store
+*.DS_store
 *.tmp
 *.log
+*.lock
