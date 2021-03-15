@@ -1,5 +1,5 @@
 # ignore local properties
-lib/credentials.py
+lib/config.py
 
 
 #################
