@@ -12,4 +12,3 @@ lib/config.py
 *.DS_store
 *.tmp
 *.log
-*.lock
